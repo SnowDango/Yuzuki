@@ -235,3 +235,179 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1140.386551 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes
+  artifactKey: Guid(c8305a29937c8a54b9f60723b403ba42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes using Guid(c8305a29937c8a54b9f60723b403ba42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cf06688f427fcf184751e574eed5bb') in 0.002859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.260377 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes/AugmentedObjects.unity
+  artifactKey: Guid(9afeada2bbd240b4981cfb6abb525418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes/AugmentedObjects.unity using Guid(9afeada2bbd240b4981cfb6abb525418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c14c75027a86bb15dfc377d23d5c43') in 0.024388 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.36 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.9 MB.
+System memory in use after: 60.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2538.
+Total: 5.335300 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.163300 ms MarkObjects: 4.859400 ms  DeleteObjects: 0.028900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 512.047424 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs
+  artifactKey: Guid(cbbc3e3307530c94eb28bc511019cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs using Guid(cbbc3e3307530c94eb28bc511019cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dbbbbdb81b7a16f12d0c1c1c4a1d8e') in 0.026870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.765253 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolIndex.prefab
+  artifactKey: Guid(54e898404b081ae438d0b5d097aae07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolIndex.prefab using Guid(54e898404b081ae438d0b5d097aae07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd8614821c3477b4ae1315af0a6c468') in 0.480150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/HandsManager.prefab
+  artifactKey: Guid(cbdf09e3b0f1ac246914a74904002cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/HandsManager.prefab using Guid(cbdf09e3b0f1ac246914a74904002cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13db60e0f4664ce15b9b20be081fcecf') in 0.008338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/RayTool.prefab
+  artifactKey: Guid(50f797a2ff610ca4099b5cf42214abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/RayTool.prefab using Guid(50f797a2ff610ca4099b5cf42214abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218d7fe22dc79b1ec637de0fe00ed112') in 0.065640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolThumb.prefab
+  artifactKey: Guid(cf111ea2144c9504d95ffc8cd94475bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolThumb.prefab using Guid(cf111ea2144c9504d95ffc8cd94475bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744d528cf0ef5240b412a72b6bb7138f') in 0.013902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolRing.prefab
+  artifactKey: Guid(b6168aea9d5fbf2448d74ed414bdca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolRing.prefab using Guid(b6168aea9d5fbf2448d74ed414bdca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf5f03b812b54986f5bfee6214181e9') in 0.011485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/InteractableToolsSDKDriver.prefab
+  artifactKey: Guid(2ced187cdc1b6b94da2fd30a37e8bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/InteractableToolsSDKDriver.prefab using Guid(2ced187cdc1b6b94da2fd30a37e8bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999932bd13e9ffe5b18c90668ea58bbd') in 0.006690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolPinky.prefab
+  artifactKey: Guid(d64b2e1f5538eca479e4bc093f451518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolPinky.prefab using Guid(d64b2e1f5538eca479e4bc093f451518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e79582f035002ba97e852a56591c5bd') in 0.011094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolMiddle.prefab
+  artifactKey: Guid(fa0335bbc63fc1b46b9b6d2b41d39f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolMiddle.prefab using Guid(fa0335bbc63fc1b46b9b6d2b41d39f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ff64a0c70d044ecaee54677c9efa3c') in 0.009503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.511594 seconds.
+  path: Assets/Oculus/VR/Oculus.VR.asmdef
+  artifactKey: Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Oculus.VR.asmdef using Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2540ba5f48d00fd1ac32059dc5e18966') in 0.004698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.181674 seconds.
+  path: Assets/Oculus/VR/Prefabs
+  artifactKey: Guid(bfe39332fdb4cb044b619b3e4b890396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs using Guid(bfe39332fdb4cb044b619b3e4b890396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b66986c812a387d4fc2e52307bc2d66') in 0.002678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050979 seconds.
+  path: Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab
+  artifactKey: Guid(5a7682c244a150b49965c007720bdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab using Guid(5a7682c244a150b49965c007720bdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ad1490e88f080ecce316ca30338a76') in 0.249753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab
+  artifactKey: Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab using Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f281d04a5732a0079461f63f7db0f2fc') in 0.179054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
+  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b9fc1eb28afedf0928a4f5effc6f34') in 0.011194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab
+  artifactKey: Guid(7a400e96d4650ff4e827a7e727fad81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab using Guid(7a400e96d4650ff4e827a7e727fad81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbc7b3ed15fbdf65e4ea5356a24c260') in 0.005038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab
+  artifactKey: Guid(835e735ca71bf78459fb2cababd74112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab using Guid(835e735ca71bf78459fb2cababd74112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738172db767c33890d88aca7d416d87b') in 0.009224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab
+  artifactKey: Guid(ce816f2e6abb0504092c23ed9b970dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab using Guid(ce816f2e6abb0504092c23ed9b970dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed7653d4dce0ebb841ea41616560741') in 0.010080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
+  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534b4ea2c908c5877652b3ddf25a3c5e') in 0.529616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab
+  artifactKey: Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab using Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934c3d6d9c6477aad28162f7fb80d83c') in 0.064676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.148951 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab
+  artifactKey: Guid(835e735ca71bf78459fb2cababd74112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab using Guid(835e735ca71bf78459fb2cababd74112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46bce6364eaab251d0902e547ed73b7') in 0.007789 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.17 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 4.827600 ms (FindLiveObjects: 0.465100 ms CreateObjectMapping: 0.157300 ms MarkObjects: 4.176700 ms  DeleteObjects: 0.027000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
