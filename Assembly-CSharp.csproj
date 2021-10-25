@@ -63,6 +63,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\SelectionCylinder.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderComponent.cs" />
+     <Compile Include="Assets\Oculus\HandManager\FingerPitchs.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshUI.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\RoomManager.cs" />
@@ -177,12 +178,11 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\ButtonDownListener.cs" />
+     <Compile Include="Assets\Oculus\HandManager\HandManagerL.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerLaser.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
-     <Compile Include="Assets\Oculus\handManager\HandManagerL.cs" />
-     <Compile Include="Assets\Oculus\handManager\FingerPitchs.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />

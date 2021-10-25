@@ -681,11 +681,11 @@
      <Reference Include="Unity.XR.Oculus">
      <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TestRunner">
      <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
