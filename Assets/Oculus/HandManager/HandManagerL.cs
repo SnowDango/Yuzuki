@@ -1,29 +1,40 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Oculus.handManager
 {
     public class HandManagerL : MonoBehaviour
     {
-        [SerializeField, Tooltip("ピンチ状態取得用OVRHand")] 
-        private OVRHand _ovrHand;
+        [FormerlySerializedAs("_ovrHand")] [SerializeField, Tooltip("ピンチ状態取得用OVRHand")] 
+        private OVRHand ovrHand;
 
-        [SerializeField, Tooltip("座標用マーカー")] 
-        private OVRSkeleton _ovrSkeleton;
+        [FormerlySerializedAs("_ovrSkeleton")] [SerializeField, Tooltip("座標用マーカー")] 
+        private OVRSkeleton ovrSkeleton;
+        
+        //info class
+        private FingerInfo _fingerInfo = new FingerInfo();
+        private HandInfo _handInfo = new HandInfo();
+        
 
         private void Update() {
+            // isTack?
+            if (!ovrHand.IsTracked) return;
             // pitch finger list 
-            ArrayList fingerPitchList = new ArrayList( 
-                capacity: 5
-            ) {
-                _ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Thumb),
-                _ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Index),
-                _ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Middle),
-                _ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Ring),
-                _ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Pinky)
-            };
+            var fingerPitchList = _fingerInfo.getFingerPitchList(ovrHand);
+            // finger tip position list
+            var fingerBasePositionList = _fingerInfo.getFingerBasePositionList(ovrSkeleton);
+            
+            //hand direction(right = 0, up = 90, left = 180(-180), down = -90)
+            float handDirection = _handInfo.getHandAngels(
+                fingerBasePositionList[FingerList.Thumb],
+                fingerBasePositionList[FingerList.Middle]
+            );
+            
 
-            Debug.Log(_ovrSkeleton.Bones[(int) OVRPlugin.BoneId.Hand_ThumbTip].Transform.position);
         }
+        
     }
 }
