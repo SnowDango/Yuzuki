@@ -1,4 +1,4 @@
-﻿namespace Oculus.handManager 
+﻿namespace Oculus.HandManager.@enum 
 {
     public enum FingerList {
         Thumb,

@@ -1,4 +1,4 @@
-﻿namespace Oculus.handManager
+﻿namespace Oculus.HandManager
 {
     public enum HandDomain
     {
@@ -15,6 +15,15 @@
     }
 
     public enum HandDirection
+    {
+        Up,
+        Down,
+        Right,
+        Left,
+        None
+    }
+
+    public enum HandHorizontal
     {
         Up,
         Down,

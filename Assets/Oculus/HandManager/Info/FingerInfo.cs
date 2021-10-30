@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Oculus.HandManager.@enum;
 using UnityEngine;
 
-namespace Oculus.handManager
+namespace Oculus.HandManager.Info
 {
     public class FingerInfo
     {

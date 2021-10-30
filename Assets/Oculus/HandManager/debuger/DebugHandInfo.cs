@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
+using Oculus.HandManager.@enum;
 using UnityEngine;
 
-namespace Oculus.handManager
+namespace Oculus.HandManager.debuger
 {
     public class DebugHandInfo
     {
