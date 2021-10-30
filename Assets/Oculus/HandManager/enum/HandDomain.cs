@@ -3,6 +3,23 @@
     public enum HandDomain
     {
         Left,
-        Right
+        Right,
+        None
+    }
+
+    public enum HandFace
+    {
+        Face,
+        Back,
+        None
+    }
+
+    public enum HandDirection
+    {
+        Up,
+        Down,
+        Right,
+        Left,
+        None
     }
 }

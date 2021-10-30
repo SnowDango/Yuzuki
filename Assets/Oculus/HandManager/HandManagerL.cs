@@ -18,7 +18,6 @@ namespace Oculus.handManager
         private FingerInfo _fingerInfo = new FingerInfo();
         private HandInfo _handInfo = new HandInfo();
         
-
         private void Update() {
             // isTack?
             if (!ovrHand.IsTracked) return;
@@ -27,14 +26,13 @@ namespace Oculus.handManager
             // finger tip position list
             var fingerBasePositionList = _fingerInfo.getFingerBasePositionList(ovrSkeleton);
             
-            //hand direction(right = 0, up = 90, left = 180(-180), down = -90)
-            float handDirection = _handInfo.getHandAngels(
-                fingerBasePositionList[FingerList.Thumb],
-                fingerBasePositionList[FingerList.Middle]
-            );
+            //hand direction (enum HandFace)
+            HandDirection handDirection = _handInfo.getHandDirection(fingerBasePositionList);
             
+            
+            
+            //hand face(enum HandFace)
 
         }
-        
     }
 }

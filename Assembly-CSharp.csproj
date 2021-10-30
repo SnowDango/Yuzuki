@@ -188,7 +188,8 @@
      <Compile Include="Assets\Oculus\HandManager\enum\HandDomain.cs" />
      <Compile Include="Assets\Oculus\HandManager\Info\FingerInfo.cs" />
      <Compile Include="Assets\Oculus\HandManager\Info\HandInfo.cs" />
-     <Compile Include="Assets\Oculus\HandManager\HandmanagerR.cs" />
+     <Compile Include="Assets\Oculus\HandManager\HandManagerR.cs" />
+     <Compile Include="Assets\Oculus\HandManager\viewmodel\ViewModel.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
