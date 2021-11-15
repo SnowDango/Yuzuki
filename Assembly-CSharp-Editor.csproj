@@ -737,6 +737,9 @@
      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
      <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+     <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
@@ -754,9 +757,6 @@
      </Reference>
      <Reference Include="UnityEditor.SpatialTracking">
      <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
-     <HintPath>D:/Unity/Yuzuki/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -792,13 +792,13 @@
       <Project>{62866cb9-8f03-07ef-c89c-bbf0bf1392cb}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{60bf0ea3-6c72-96c5-d6eb-03a8370272f3}</Project>
-      <Name>Oculus.VR</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
       <Project>{ae479e97-7eb3-5af5-59a1-0164df871254}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{60bf0ea3-6c72-96c5-d6eb-03a8370272f3}</Project>
+      <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
       <Project>{1ff5f020-372d-b25d-dcbe-de29014e2031}</Project>

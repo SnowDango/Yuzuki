@@ -1,27 +1,33 @@
-﻿using UnityEngine;
+﻿using Oculus.HandManager.viewmodel;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Oculus.HandManager.events
 {
     public class HandEvents
     {
-        //debug events TextChange
 
-        private GameObject _GameObject;
-        public void debugTextChangeEvent(HandDirection handDirection, HandFace handFace) {
-            _GameObject = GameObject.Find("Text");
-            var textObject = _GameObject.GetComponent<Text>();
+        //debug events TextChange
+        public void debugTextChangeEvent(HandDirection handDirection, HandFace handFace) { ;
             if (handDirection == HandDirection.Up) {
-                textObject.text = "direction: up";
+                ViewModel.viewText = "direction: up";
             }else if (handDirection == HandDirection.Left) {
-                textObject.text = "direction: left";
+                ViewModel.viewText = "direction: left";
             }else if (handDirection == HandDirection.Down) {
-                textObject.text = "direction: down";
+                ViewModel.viewText = "direction: down";
             }else if (handDirection == HandDirection.Right) {
-                textObject.text = "direction: right";
+                ViewModel.viewText = "direction: right";
             }else {
-                textObject.text = "none";
+                ViewModel.viewText = "none";
             }
+        }
+
+        private Text getTextComponent() {
+            return GameObject.Find("DemoObjects").transform
+                .Find("Description").transform
+                .Find("InfoPanel").transform
+                .Find("Background").transform
+                .Find("Text").GetComponent<Text>();
         }
     }
 }
